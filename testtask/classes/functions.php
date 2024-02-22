@@ -103,7 +103,7 @@ $param = array(
 
 $obj = new api('test','12345','http://localhost');
 echo $obj->getInfo();
-echo $obj->getUser("Ivanov",'http://localhost');
+echo $obj->getUser("Ivanov123",'http://localhost');
 echo $obj->setUser("Ivanov",'http://localhost',$param);
 
 ?>
